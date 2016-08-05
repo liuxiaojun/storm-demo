@@ -55,6 +55,12 @@
             <version>1.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-kafka</artifactId>
+            <version>0.9.6</version>
+        </dependency>
+        
     </dependencies>
 
     <!--
