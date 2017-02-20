@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="storm-demo" />
+        <module name="storm-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="storm-demo" target="1.5" />
+      <module name="storm-example" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
