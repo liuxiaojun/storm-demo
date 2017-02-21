@@ -1,4 +1,4 @@
-package com.socialmaster.test.weblog;
+package com.socialmaster.demo.weblog;
 
 import org.apache.storm.topology.BasicOutputCollector;
 import org.apache.storm.topology.OutputFieldsDeclarer;

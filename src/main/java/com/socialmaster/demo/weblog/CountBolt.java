@@ -1,4 +1,4 @@
-package com.socialmaster.test.weblog;
+package com.socialmaster.demo.weblog;
 
 import redis.clients.jedis.Jedis;
 import java.util.Date;
@@ -111,3 +111,4 @@ public class CountBolt extends BaseBasicBolt {
         return conf;
     }
 }
+

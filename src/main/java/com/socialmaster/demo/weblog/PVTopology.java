@@ -1,17 +1,15 @@
-package com.socialmaster.test.weblog;
+package com.socialmaster.demo.weblog;
 
 import org.apache.storm.kafka.BrokerHosts;
 import org.apache.storm.topology.TopologyBuilder;
 import java.util.UUID;
 import org.apache.storm.Config;
 import org.apache.storm.StormSubmitter;
-import org.apache.storm.kafka.BrokerHosts;
 import org.apache.storm.kafka.KafkaSpout;
 import org.apache.storm.kafka.SpoutConfig;
 import org.apache.storm.kafka.StringScheme;
 import org.apache.storm.kafka.ZkHosts;
 import org.apache.storm.spout.SchemeAsMultiScheme;
-import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
 
 
@@ -38,3 +36,4 @@ public class PVTopology {
         StormSubmitter.submitTopologyWithProgressBar(args[0] + "_pv", conf, builder.createTopology());
     }
 }
+
