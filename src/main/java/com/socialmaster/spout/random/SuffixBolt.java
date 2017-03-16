@@ -22,7 +22,7 @@ public class SuffixBolt extends BaseBasicBolt {
     @Override
     public void prepare(Map stormConf, TopologyContext context) {
         try {
-            fileWriter = new FileWriter("/Users/liuxiaojun/Document/storm-tmp-file/"+ UUID.randomUUID());
+            fileWriter = new FileWriter("/tmp/storm-tmp-file-"+ UUID.randomUUID());
         } catch (IOException e) {
             e.printStackTrace();
         }
